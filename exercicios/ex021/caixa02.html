@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grouping tags</title>
+    <style>
+        body {
+            background-color: rgb(119, 119, 119);
+            font-family: Arial, Helvetica, sans-serif;
+            margin: 0px;
+        }
+        header {
+            background-color: white;
+            padding: 10px;
+            margin: 10px;
+            border-radius: 6px;
+        }
+        nav {
+            background-color: rgba(51, 51, 51, 0.774);
+            padding: 3px;
+            box-shadow: 3px 3px 13px black;
+            border-radius: 6px;
+        }
+        main {
+            background-color: white;
+            padding: 10px;
+            margin: 10px;
+            border-radius: 6px;
+        }
+        article {
+            background-color: rgb(148, 148, 148);
+            padding: 2px;
+        }
+        article > aside {
+            background-color: rgb(100, 100, 100);
+            padding: 4px;
+        }
+        aside{
+            color: white;
+        }
+        footer {
+            background-color: black;
+            color: white;
+            text-align: center;
+            padding: 4px;
+            margin: 0px;
+        }
+        footer > p {
+            margin: 0px;
+        }
+         nav > a {
+            text-decoration: none;
+            color: white;
+            font-weight: bold;
+            margin-right: 30px;
+        }
+        nav > a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+   <header>
+    <nav>
+        <h1>Meu site</h1>
+        <a href="#">Link</a>
+        <a href="#">Link</a>
+        <a href="#">Link</a>
+        <a href="#">Link</a>
+        <a href="#">Link</a>
+        
+    </nav>
+    </header>
+   <main>
+    <section id="assuntos">
+       <p>Esportes Política Tecnologia</p>
+    </section>
+    <section id="noticias">
+        <article>
+            <h2>Noticia sobre o Brasil</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias assumenda repellat, iusto voluptatibus hic laudantium cum. Dolorum, assumenda. Laboriosam iure sunt sed labore consequuntur laborum culpa consequatur necessitatibus quaerat reprehenderit!</p>
+            <aside>
+                <p>Artigo escrito por Luiz Fernando</p>
+            </aside>
+        </article>
+    </section>
+
+   </main>
+   <footer>
+    <p>Desenvovido por Luiz Fernando</p>
+   </footer>
+</body>
+</html>
