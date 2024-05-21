@@ -12,6 +12,13 @@
         table {
             width: 500px;
             border-collapse: collapse;
+            position: relative;
+        }
+
+        caption {
+            font-size: 1.2em;
+            font-weight: bold;
+            padding: 10px;
         }
 
         td, th {
@@ -19,8 +26,19 @@
             padding: 8px;
         }
 
+        thead > tr > th {
+            position: sticky;
+            top: -1px;
+            background-color: rgb(54, 54, 54) ;
+
+        }
+        
+        tbody > tr:nth-child(even) {
+            background-color: lightgrey;
+        }
+
         thead, tfoot {
-            background-color: gray;
+            background-color: rgb(54, 54, 54);
             color: white;
         }
         td.num {
@@ -36,6 +54,7 @@
      <!--
         ANATOMIA PARA TABELAS GRANDES
         TABLE
+             CAPTION
              THEAD
                  TR, TD, TH
              TBODY
@@ -45,10 +64,11 @@
      -->
 
      <table>
+        <caption>População da Unidades Federativas</caption>
         <thead>
             <tr>
-                <th>Estado</th>
-                <th>População</th>
+                <th scope="col">Estado</th>
+                <th scope="col">População</th>
             </tr>
         </thead>
         <tbody>
@@ -95,11 +115,13 @@
 
         </tbody>
         <tfoot>
-            <th>Total de habitantes</th>
+            <th scope="row">Total de habitantes</th>
             <td class="num">0000</td>
 
         </tfoot>
                 
      </table>
+     Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam deleniti mollitia totam? Harum esse ipsam debitis nostrum sit. Ipsam tenetur modi ducimus reprehenderit iure vitae libero quam voluptate suscipit nemo? Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt, nobis voluptas! Quasi unde quibusdam voluptatum necessitatibus earum, laboriosam adipisci quidem voluptatibus ullam atque possimus! Corrupti debitis cupiditate consequatur accusamus aperiam! Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolores, incidunt quisquam numquam consectetur nam velit harum illo modi impedit quia commodi iusto aliquam temporibus iste architecto, aliquid eligendi, veniam ratione.
+     Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam deleniti mollitia totam? Harum esse ipsam debitis nostrum sit. Ipsam tenetur modi ducimus reprehenderit iure vitae libero quam voluptate suscipit nemo? Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt, nobis voluptas! Quasi unde quibusdam voluptatum necessitatibus earum, laboriosam adipisci quidem voluptatibus ullam atque possimus! Corrupti debitis cupiditate consequatur accusamus aperiam! Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolores, incidunt quisquam numquam consectetur nam velit harum illo modi impedit quia commodi iusto aliquam temporibus iste architecto, aliquid eligendi, veniam ratione.Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam deleniti mollitia totam? Harum esse ipsam debitis nostrum sit. Ipsam tenetur modi ducimus reprehenderit iure vitae libero quam voluptate suscipit nemo? Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt, nobis voluptas! Quasi unde quibusdam voluptatum necessitatibus earum, laboriosam adipisci quidem voluptatibus ullam atque possimus! Corrupti debitis cupiditate consequatur accusamus aperiam! Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolores, incidunt quisquam numquam consectetur nam velit harum illo modi impedit quia commodi iusto aliquam temporibus iste architecto, aliquid eligendi, veniam ratione.Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam deleniti mollitia totam? Harum esse ipsam debitis nostrum sit. Ipsam tenetur modi ducimus reprehenderit iure vitae libero quam voluptate suscipit nemo? Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt, nobis voluptas! Quasi unde quibusdam voluptatum necessitatibus earum, laboriosam adipisci quidem voluptatibus ullam atque possimus! Corrupti debitis cupiditate consequatur accusamus aperiam! Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolores, incidunt quisquam numquam consectetur nam velit harum illo modi impedit quia commodi iusto aliquam temporibus iste architecto, aliquid eligendi, veniam ratione.Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam deleniti mollitia totam? Harum esse ipsam debitis nostrum sit. Ipsam tenetur modi ducimus reprehenderit iure vitae libero quam voluptate suscipit nemo? Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt, nobis voluptas! Quasi unde quibusdam voluptatum necessitatibus earum, laboriosam adipisci quidem voluptatibus ullam atque possimus! Corrupti debitis cupiditate consequatur accusamus aperiam! Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolores, incidunt quisquam numquam consectetur nam velit harum illo modi impedit quia commodi iusto aliquam temporibus iste architecto, aliquid eligendi, veniam ratione.Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam deleniti mollitia totam? Harum esse ipsam debitis nostrum sit. Ipsam tenetur modi ducimus reprehenderit iure vitae libero quam voluptate suscipit nemo? Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt, nobis voluptas! Quasi unde quibusdam voluptatum necessitatibus earum, laboriosam adipisci quidem voluptatibus ullam atque possimus! Corrupti debitis cupiditate consequatur accusamus aperiam! Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolores, incidunt quisquam numquam consectetur nam velit harum illo modi impedit quia commodi iusto aliquam temporibus iste architecto, aliquid eligendi, veniam ratione.Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam deleniti mollitia totam? Harum esse ipsam debitis nostrum sit. Ipsam tenetur modi ducimus reprehenderit iure vitae libero quam voluptate suscipit nemo? Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt, nobis voluptas! Quasi unde quibusdam voluptatum necessitatibus earum, laboriosam adipisci quidem voluptatibus ullam atque possimus! Corrupti debitis cupiditate consequatur accusamus aperiam! Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolores, incidunt quisquam numquam consectetur nam velit harum illo modi impedit quia commodi iusto aliquam temporibus iste architecto, aliquid eligendi, veniam ratione.Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam deleniti mollitia totam? Harum esse ipsam debitis nostrum sit. Ipsam tenetur modi ducimus reprehenderit iure vitae libero quam voluptate suscipit nemo? Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt, nobis voluptas! Quasi unde quibusdam voluptatum necessitatibus earum, laboriosam adipisci quidem voluptatibus ullam atque possimus! Corrupti debitis cupiditate consequatur accusamus aperiam! Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolores, incidunt quisquam numquam consectetur nam velit harum illo modi impedit quia commodi iusto aliquam temporibus iste architecto, aliquid eligendi, veniam ratione.Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam deleniti mollitia totam? Harum esse ipsam debitis nostrum sit. Ipsam tenetur modi ducimus reprehenderit iure vitae libero quam voluptate suscipit nemo? Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt, nobis voluptas! Quasi unde quibusdam voluptatum necessitatibus earum, laboriosam adipisci quidem voluptatibus ullam atque possimus! Corrupti debitis cupiditate consequatur accusamus aperiam! Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolores, incidunt quisquam numquam consectetur nam velit harum illo modi impedit quia commodi iusto aliquam temporibus iste architecto, aliquid eligendi, veniam ratione.Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam deleniti mollitia totam? Harum esse ipsam debitis nostrum sit. Ipsam tenetur modi ducimus reprehenderit iure vitae libero quam voluptate suscipit nemo? Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt, nobis voluptas! Quasi unde quibusdam voluptatum necessitatibus earum, laboriosam adipisci quidem voluptatibus ullam atque possimus! Corrupti debitis cupiditate consequatur accusamus aperiam! Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolores, incidunt quisquam numquam consectetur nam velit harum illo modi impedit quia commodi iusto aliquam temporibus iste architecto, aliquid eligendi, veniam ratione.Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam deleniti mollitia totam? Harum esse ipsam debitis nostrum sit. Ipsam tenetur modi ducimus reprehenderit iure vitae libero quam voluptate suscipit nemo? Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt, nobis voluptas! Quasi unde quibusdam voluptatum necessitatibus earum, laboriosam adipisci quidem voluptatibus ullam atque possimus! Corrupti debitis cupiditate consequatur accusamus aperiam! Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolores, incidunt quisquam numquam consectetur nam velit harum illo modi impedit quia commodi iusto aliquam temporibus iste architecto, aliquid eligendi, veniam ratione.Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam deleniti mollitia totam? Harum esse ipsam debitis nostrum sit. Ipsam tenetur modi ducimus reprehenderit iure vitae libero quam voluptate suscipit nemo? Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt, nobis voluptas! Quasi unde quibusdam voluptatum necessitatibus earum, laboriosam adipisci quidem voluptatibus ullam atque possimus! Corrupti debitis cupiditate consequatur accusamus aperiam! Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolores, incidunt quisquam numquam consectetur nam velit harum illo modi impedit quia commodi iusto aliquam temporibus iste architecto, aliquid eligendi, veniam ratione.Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam deleniti mollitia totam? Harum esse ipsam debitis nostrum sit. Ipsam tenetur modi ducimus reprehenderit iure vitae libero quam voluptate suscipit nemo? Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt, nobis voluptas! Quasi unde quibusdam voluptatum necessitatibus earum, laboriosam adipisci quidem voluptatibus ullam atque possimus! Corrupti debitis cupiditate consequatur accusamus aperiam! Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolores, incidunt quisquam numquam consectetur nam velit harum illo modi impedit quia commodi iusto aliquam temporibus iste architecto, aliquid eligendi, veniam ratione.
 </body>
 </html>
