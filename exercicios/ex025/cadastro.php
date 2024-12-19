@@ -1,0 +1,1 @@
+Não funciona sem PHP, va aprender PHP seu vagabundo!
