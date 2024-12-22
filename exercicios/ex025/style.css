@@ -1,0 +1,10 @@
+@charset "UTF";
+
+* {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    background-color: rgb(68, 0, 255);
+    color: aliceblue;
+}

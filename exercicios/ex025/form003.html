@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Formulário</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <h1>Teste de Formulário</h1>
@@ -14,7 +15,12 @@
         </p>
         <p>
             <label for="imedia">Média</label>
-            <input type="number" name="media" id="imedia" min="0" max="10" step="0.1" required>
+            <input type="number" name="media" id="imedia" min="0" max="10" step="0.1" required value="5">
+        </p>
+
+        <p>
+            <label for="imes">Periodo Letivo</label>
+            <input type="month" name="mes" id="imes" value="1997-03">
         </p>
         <p>
             <input type="submit" value="Enviar">
